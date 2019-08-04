@@ -16,3 +16,16 @@ http://127.0.0.1:1345/diskinfo
 
 
 http://127.0.0.1:1345/sysinfo?fields=memory
+
+Dependancies:
+1) Install boost on ubuntu (Boost property tree is used for generating XML/JSON data)
+
+sudo apt-get install libboost-all-dev
+
+2) Install libmicrohttpd on ubuntu
+
+sudo apt-get update
+
+sudo apt-get install libmicrohttpd-dev
+
+
