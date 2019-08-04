@@ -1,4 +1,4 @@
-# cpp
+# C++ REST DEMO 
 #compile command
 
 g++ -o restapi_test httphandler.cpp  strutil.cpp  restapi.cpp execute.cpp -I /usr/local/lib -lmicrohttpd /usr/lib/x86_64-linux-gnu/libboost_regex.a -lpthread
